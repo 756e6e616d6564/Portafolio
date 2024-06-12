@@ -38,12 +38,30 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: #1f1f1f;
+  right: 0;
+
+
+  width: 70vw;
+  background-color: #1f1f1f71;
   color: #fff;
+  
   padding: 10px 0;
+  margin: 0 auto;
+
   text-align: center;
+
+  margin-top: 7px;
+
+
+  border-radius: 30px;
+
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 10px rgba(10px, 10px, 10px, 0.2);
+
+  
 }
+
+
 
 
 main {
@@ -103,7 +121,7 @@ nav li a.active {
   height: auto;
   width: 100%;
 
-  background-image: url("/res/media/image/img1.jpg");
+  background-image: url("/res/media/image/1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,20 +151,26 @@ nav li a.active {
 #portada > div > h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 1.7em;
-  font-style: italic;
+  font-size: 1.6em;
+  font-style: normal;
 
   text-align: center;
   margin-top: 0; 
-  transition: color 0.3s ease-in-out 0.1s, font-size 0.3s ease-in-out 0.1s;
+  transition: color 0.3s ease-in-out 0.1s, color 0.3s ease-in-out 0.1s;
 
-
+  color: rgb(124, 126, 126);
   width: 80%;
 
-  background-color: rgba(0, 0, 0, 0.644);
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.13);
+  backdrop-filter: blur(50px);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#portada > div > h1:hover {
+  color : #cacfd6;
+
 }
 
 #portada > div > p {
@@ -158,16 +182,25 @@ nav li a.active {
   margin-top: 3%;
 }
 
-#portada > div > h1:hover {
-  color: #ffffff;
-  font-size: 2em;
-}
+
 
 #portada > #relleno {
+
   box-shadow: none;
-  background-color: transparent;
+
+  border-radius: 15px;
   backdrop-filter: none;
-  border: 1px solid;  
+
+
+  border: 1px solid transparent;  
+
+  border-radius: 130px;
+
+
+  align-self: center;
+  height:400px;
+  width: 400px;
+  ;
 }
 
 
